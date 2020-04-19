@@ -1,6 +1,8 @@
 .warapper {
   height: 100%;
   width: 100%;
+  box-sizing: border-box;
+  background-color: mintcream;
 }
 
 a {
@@ -13,25 +15,39 @@ a:hover {
 
 
 .header {
+  height: 100%;
+  width: 100%;
+  background-color: deepskyblue;
+  color: white;
+  line-height: 50px;
   &__box {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
     &__title {
-
+      font-size: 30px;
+      font-weight: bold;
     }
-    &__from {
-
-    }
-    &__create {
-
+    &__links {
+      display: flex;
+      font-size: 20px;
+      &__create {
+        margin-left: 20px;
+      }
     }
   }
 }
 .main {
+  height: 100%;
+  width: 100%;
   &__box {
-    &__for {
-
-    }
-    &__info {
-
+    padding: 20px 80px;
+    &__contents {
+      background-color: white;
+      &__for {
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
     }
   }
 }
