@@ -7,7 +7,6 @@
 
 a {
   text-decoration: none;
-  color: black;
 }
 a:hover {
   color: red;
@@ -31,6 +30,9 @@ a:hover {
     &__links {
       display: flex;
       font-size: 20px;
+      a {
+        color: white;
+      }
       &__create {
         margin-left: 20px;
       }
@@ -44,6 +46,9 @@ a:hover {
     padding: 20px 80px;
     &__contents {
       background-color: white;
+      a {
+        color: black;
+      }
       &__for {
         margin-bottom: 10px;
         font-size: 20px;
