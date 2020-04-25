@@ -17,8 +17,14 @@ a:hover {
   height: 100%;
   width: 100%;
   background-color: deepskyblue;
-  color: white;
   line-height: 50px;
+  color: white;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: red;
+  }
   &__box {
     padding: 20px 40px;
     display: flex;
@@ -30,9 +36,6 @@ a:hover {
     &__links {
       display: flex;
       font-size: 20px;
-      a {
-        color: white;
-      }
       &__create {
         margin-left: 20px;
       }
